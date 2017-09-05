@@ -1,0 +1,69 @@
+footer.page-footer{
+  background-color: black;
+  !important
+}
+
+.navbar-logged-out{
+  background-color: black;
+}
+
+.company-logo-one{
+  background-size: contain;
+}
+
+ul.side-nav{
+  background-color: black;
+}
+
+ul.side-nav li a{
+  color: #bbdefb;
+}
+
+
+.top-logo{
+  margin: 0 auto;
+  width: 140px;
+  height: 55px;
+  border: solid 1px #52b046;
+  border-radius: 1px;
+}
+
+.slider{
+  height: 550px;
+}
+
+.slider{
+  height: 550px;
+}
+
+.slide{
+  height: 500px;
+  !important
+}
+
+
+.carouzel{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-top:15px;
+}
+
+.carouselBack{
+  object-fit: contain;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.about-link{
+  color: #bbdefb;
+}
+
+.contact-link{
+  color: #bbdefb;
+}
+
+div.z-depth-2{
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0);
+}
