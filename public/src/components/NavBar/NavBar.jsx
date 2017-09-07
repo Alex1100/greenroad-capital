@@ -4,16 +4,7 @@ import { Link, Route } from 'react-router-dom';
 
 const NavBar = (props) => (
   <div>
-    <Navbar className="navbar-logged-out" brand={<img src="../../.././assets/images/GreenRoadCapitalLogoNavbar.png" className="top-logo"/>} right>
-      <NavItem>
-        <Link
-          to="/"
-          onClick={() => {
-            props.history.push('/');
-          }}
-        >
-        </Link>
-      </NavItem>
+    <Navbar className="navbar-logged-out" right>
 
       <NavItem>
         <Link

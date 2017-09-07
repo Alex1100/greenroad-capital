@@ -1,51 +1,47 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import FooterComponent from '../Footer/FooterComponent';
-var Carousel = require('nuka-carousel');
 import { Jumbotron } from 'react-bootstrap';
 
-const HomeGuest = (props) => {
-  mixins: [Carousel.ControllerMixin];
-  return (
-    <div>
-      <NavBar props={props} />
-      <Jumbotron>
-        <Carousel className="z-depth-2" decorators={[]} autoplayInterval={5000} easing={"linear"} wrapAround={true} autoplay={true} swiping={true} >
-          <div className="carouzel">
-            <img className="carouselBack" src="../../.././assets/images/GreenRoadCapitalLogo.png"/>
-          </div>
-          <div className="carouzel">
-            <img className="carouselBack" src="../../.././assets/images/GreenRoadCapitalLogo.png" border="0"/>
-          </div>
-        </Carousel>
-        <div className="shadow">
-          <p>Green Road Capital, LLC was founded
-            in 2017 and is based in Los Angeles.
-            Green Road Capital is led by an
-            institutionally seasoned management
-            team with 13+ years of combined
-            experience managing institutional
-            accounts, 22+ years in trading with the
-            same fluid strategy using a proprietary
-            trading formula, and 40+ years of
-            offering diversification benefits not
-            seen in traditional equity, debt, and
-            alternative investments.
-          </p>
-          <p>Green Road Capital is committed to
-            delivering transparent alternative
-            investment solutions to sophisticated
-            high-net worth investors
-            and institutions seeking uncorrelated
-            returns and above-average profit
-            participation.
-          </p>
-        </div>
-      </Jumbotron>
-      <FooterComponent props={props} />
-    </div>
-  )
-};
+const HomeGuest = (props) => (
+  <div>
+    <NavBar props={props} />
+    <Jumbotron>
+      <div className="layout-logo">
+        <img className="layout-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+      </div>
+      <div className="shadow">
+        <p>Green Road Capital, LLC was founded
+          in 2017 and is based in Los Angeles, CA.
+          Green Road Capital is led by an
+          institutionally seasoned management
+          team with 13+ years of combined
+          experience managing institutional
+          accounts, 22+ years in trading with the
+          same fluid strategy using a proprietary
+          trading formula, and 40+ years of
+          offering diversification benefits not
+          seen in traditional equity, debt, and
+          alternative investments.
+        </p>
+        <p>Green Road Capital is committed to
+          delivering transparent alternative
+          investment solutions to sophisticated
+          high-net worth investors
+          and institutions seeking uncorrelated
+          returns and above-average profit
+          participation.
+        </p>
+      </div>
+      <div className="disclosure">
+        <p>
+          Access to this website is provided by Green Road Capital, LLC ("Green Road") for informational purposes only. The publication of this website is limited to the dissemination of general information pertaning to the services offered by Green Road. No portion of the commentary included herin is to be construed as a solicitation to effect transactions in securities or the provision of personalized investment, tax, or legal advice. There is no guarantee that active asset management or any investment strategy will be successful. Investing involves risk, including the potential loss of principal. No investment strategy can guarantee a profit or protect against loss in periods of declining values. Past performance is not necessarily indicative of future results. The forward-looking statements contained on this website are included for illustrative purposes only, are inherently spculative as they relate to future events, and may not be realized as described. These forward-looking statements will not be updated in the future. Opinions expressed herein are made as of the date of publication and are subject to change without notice. Data and other source information presented on this website were obtained from published sources believed to be reliable, but which are not warranted as to accuracy or completeness. No part of this website may be reproduced in any manner without the written permission of Green Road.
+        </p>
+      </div>
+    </Jumbotron>
+    <FooterComponent props={props} />
+  </div>
+);
 
 
 export default HomeGuest;

@@ -7,6 +7,15 @@ footer.page-footer{
   background-color: black;
 }
 
+
+.navbar-logged-out img{
+  display: block;
+  position: relative;
+  top: 4px;
+  width: 150px;
+  height: 48px;
+}
+
 .company-logo-one{
   background-size: contain;
 }
@@ -16,16 +25,59 @@ ul.side-nav{
 }
 
 ul.side-nav li a{
-  color: #bbdefb;
+  color: #4dff00;
 }
 
 
-.top-logo{
+.layout-logo{
+  display: block;
+  position: relative;
+  top: 10px;
   margin: 0 auto;
-  width: 140px;
-  height: 55px;
-  border: solid 1px #52b046;
+  width: 75%;
+  height: 450px;
   border-radius: 1px;
+}
+
+.layout-logo-image{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about-logo{
+  display: block;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  width: 35%;
+  height: 220px;
+  border-radius: 1px;
+}
+
+.about-logo-image{
+  display: block;
+  position: relative;
+  background-size: cover;
+  width: 170%;
+  left: -35%;
+  height: 230px;
+}
+
+.contact-body{
+  width: auto;
+  height: 400px;
+  text-align: center;
+  font-size: 150%;
+  color: black;
+}
+
+.contact-content{
+  color: black;
+}
+
+.contact-header{
+  color: black;
 }
 
 .slider{
@@ -57,13 +109,52 @@ ul.side-nav li a{
 }
 
 .about-link{
-  color: #bbdefb;
+  color: ghostwhite;
 }
 
 .contact-link{
-  color: #bbdefb;
+  color: ghostwhite;
 }
 
 div.z-depth-2{
   box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+.shadow{
+  display: block;
+  position: relative;
+  top: 20px;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+  border-radius: 1px;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 130%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.disclosure{
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-style: italic;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  font-size: 90%;
+}
+
+.footer-content{
+  color: ghostwhite;
+}
+
+.footer-header{
+  color: ghostwhite;
+  text-align: center;
 }
