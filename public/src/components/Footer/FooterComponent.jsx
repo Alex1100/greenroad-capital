@@ -7,8 +7,8 @@ const FooterComponent = props => (
     <Footer copyrights="©2017. Green Road Capital, LLC. All rights reserved."
       links={
         <ul>
-          <li><Link to="/about" className="footer-content">About</Link></li>
-          <li><Link to="/contact" className="footer-content">Contact</Link></li>
+          <li><Link to="/about" className="footer-content" onClick={() => props.history.push('/about')}>About</Link></li>
+          <li><Link to="/contact" className="footer-content" onClick={() => props.history.push('/contact')}>Contact</Link></li>
         </ul>
       }
     >

@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
-import FooterComponent from '../Footer/FooterComponent';
+import NavBarContact from '../NavBar/NavBarContact';
+import FooterComponentContact from '../Footer/FooterComponentContact';
 import { Jumbotron } from 'react-bootstrap';
 
 
 const Contact = (props) => (
   <div>
-    <NavBar props={props}/>
+    <NavBarContact props={props}/>
     <div className="contact-body">
       <Jumbotron>
         <h5 className="contact-header">Green Road Capital</h5>
@@ -26,7 +26,7 @@ const Contact = (props) => (
         </p>
       </Jumbotron>
     </div>
-    <FooterComponent props={props}/>
+    <FooterComponentContact props={props}/>
   </div>
 );
 

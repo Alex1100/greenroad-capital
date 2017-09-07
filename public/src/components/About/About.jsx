@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
-import FooterComponent from '../Footer/FooterComponent';
+import NavBarAbout from '../NavBar/NavBarAbout';
+import FooterComponentAbout from '../Footer/FooterComponentAbout';
 import { Jumbotron } from 'react-bootstrap';
 
 
 const About = (props) => (
   <div>
-    <NavBar props={props} />
+    <NavBarAbout props={props} />
     <Jumbotron>
       <div className="about-logo">
         <img className="about-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
@@ -36,11 +36,11 @@ const About = (props) => (
       </div>
       <div className="disclosure">
         <p>
-          Access to this website is provided by Green Road Capital, LLC ("Green Road") for informational purposes only. The publication of this website is limited to the dissemination of general information pertaning to the services offered by Green Road. No portion of the commentary included herin is to be construed as a solicitation to effect transactions in securities or the provision of personalized investment, tax, or legal advice. There is no guarantee that active asset management or any investment strategy will be successful. Investing involves risk, including the potential loss of principal. No investment strategy can guarantee a profit or protect against loss in periods of declining values. Past performance is not necessarily indicative of future results. The forward-looking statements contained on this website are included for illustrative purposes only, are inherently spculative as they relate to future events, and may not be realized as described. These forward-looking statements will not be updated in the future. Opinions expressed herein are made as of the date of publication and are subject to change without notice. Data and other source information presented on this website were obtained from published sources believed to be reliable, but which are not warranted as to accuracy or completeness. No part of this website may be reproduced in any manner without the written permission of Green Road.
+          <sub>Access to this website is provided by Green Road Capital, LLC ("Green Road") for informational purposes only. The publication of this website is limited to the dissemination of general information pertaning to the services offered by Green Road. No portion of the commentary included herin is to be construed as a solicitation to effect transactions in securities or the provision of personalized investment, tax, or legal advice. There is no guarantee that active asset management or any investment strategy will be successful. Investing involves risk, including the potential loss of principal. No investment strategy can guarantee a profit or protect against loss in periods of declining values. Past performance is not necessarily indicative of future results. The forward-looking statements contained on this website are included for illustrative purposes only, are inherently spculative as they relate to future events, and may not be realized as described. These forward-looking statements will not be updated in the future. Opinions expressed herein are made as of the date of publication and are subject to change without notice. Data and other source information presented on this website were obtained from published sources believed to be reliable, but which are not warranted as to accuracy or completeness. No part of this website may be reproduced in any manner without the written permission of Green Road.</sub>
         </p>
       </div>
     </Jumbotron>
-    <FooterComponent props={props} />
+    <FooterComponentAbout props={props} />
   </div>
 );
 
