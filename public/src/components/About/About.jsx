@@ -2,15 +2,63 @@ import React from 'react';
 import NavBarAbout from '../NavBar/NavBarAbout';
 import FooterComponentAbout from '../Footer/FooterComponentAbout';
 import { Jumbotron } from 'react-bootstrap';
+import MediaQuery from 'react-responsive';
 
 
 const About = (props) => (
   <div>
     <NavBarAbout props={props} />
     <Jumbotron>
-      <div className="about-logo">
-        <img className="about-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
-      </div>
+      <MediaQuery query='(max-device-width: 414px)'>
+        <MediaQuery query='(min-device-width: 400px)'>
+          <MediaQuery query='(min-device-height: 736px)'>
+            <div className="layout-logo-iphone-six-plus">
+              <img className="layout-logo-image-iphone-six-plus" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(max-device-width: 376px)'>
+        <MediaQuery query='(min-device-width: 370px)'>
+          <MediaQuery query='(max-device-height: 668px)'>
+            <div className="layout-logo-iphone-six">
+              <img className="layout-logo-image-iphone-six" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(max-device-width: 320px)'>
+        <MediaQuery query='(min-device-width: 315px)'>
+          <MediaQuery query='(max-device-height: 568px)'>
+            <div className="layout-logo-iphone-five">
+              <img className="layout-logo-image-iphone-five" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(max-device-width: 412px)'>
+        <MediaQuery query='(min-device-width: 411px)'>
+          <MediaQuery query='(min-device-height: 732px)'>
+            <div className="layout-logo-nexus-six-p-and-five-x">
+              <img className="layout-logo-image-nexu-six-p-and-five-x" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(max-device-width: 361px)'>
+        <MediaQuery query='(min-device-width: 357px)'>
+          <MediaQuery query='(min-device-height: 341px)'>
+            <div className="layout-logo-galaxy-s-five">
+              <img className="layout-logo-image-galaxy-s-five" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(min-device-width: 600px)'>
+        <div className="layout-logo">
+          <img className="layout-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+        </div>
+      </MediaQuery>
       <div className="shadow">
         <p>Green Road Capital, LLC was founded
           in 2017 and is based in Los Angeles, CA.
