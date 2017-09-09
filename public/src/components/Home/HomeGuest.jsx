@@ -53,9 +53,27 @@ const HomeGuest = (props) => (
           </MediaQuery>
         </MediaQuery>
       </MediaQuery>
-      <MediaQuery query='(min-device-width: 600px)'>
+      <MediaQuery query='(max-device-width: 768px)'>
+        <MediaQuery query='(min-device-width: 760px)'>
+          <MediaQuery query='(max-device-height: 1024px)'>
+            <div className="layout-logo-ipad">
+              <img className="layout-logo-image-ipad" src="../../.././assets/images/Green_Road_Capital_Logo_New_Ipad.jpeg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(max-device-width: 1024px)'>
+        <MediaQuery query='(min-device-width: 1020px)'>
+          <MediaQuery query='(max-device-height: 1366px)'>
+            <div className="layout-logo-ipad-pro">
+              <img className="layout-logo-image-ipad-pro" src="../../.././assets/images/Green_Road_Capital_Logo_New_Ipad_Pro.jpeg" />
+            </div>
+          </MediaQuery>
+        </MediaQuery>
+      </MediaQuery>
+      <MediaQuery query='(min-device-width: 1200px)'>
         <div className="layout-logo">
-          <img className="layout-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New.jpg" />
+          <img className="layout-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default.jpeg" />
         </div>
       </MediaQuery>
       <div className="shadow">

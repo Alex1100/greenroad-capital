@@ -87,6 +87,34 @@ footer.page-footer{
   width: auto;
 }
 
+.layout-logo-ipad{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-ipad{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
+.layout-logo-ipad-pro{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-ipad-pro{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
 .company-logo-one{
   background-size: contain;
 }
@@ -105,8 +133,8 @@ ul.side-nav li a{
   position: relative;
   top: 10px;
   margin: 0 auto;
-  width: 75%;
-  height: 450px;
+  width: 51%;
+  height: 360px;
   border-radius: 1px;
 }
 
