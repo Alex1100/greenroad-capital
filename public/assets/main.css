@@ -16,6 +16,77 @@ footer.page-footer{
   height: 48px;
 }
 
+
+.layout-logo-iphone-six-plus{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-iphone-six-plus{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
+.layout-logo-iphone-six{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-iphone-six{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
+.layout-logo-iphone-five{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-iphone-five{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
+.layout-logo-nexus-six-p-and-five-x{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-nexus-six-p-and-five-x{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
+.layout-logo-galaxy-s-five{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.layout-logo-image-galaxy-s-five{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+}
+
 .company-logo-one{
   background-size: contain;
 }
