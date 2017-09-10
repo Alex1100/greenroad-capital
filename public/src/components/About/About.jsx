@@ -73,9 +73,11 @@ const About = (props) => (
         </MediaQuery>
       </MediaQuery>
       <MediaQuery query='(min-device-width: 1200px)'>
-        <div className="layout-logo">
-          <img className="layout-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default.jpeg" />
-        </div>
+        <MediaQuery query='(max-device-width: 1290px)'>
+          <div className="layout-logo">
+            <img className="layout-logo-image" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default.jpeg" />
+          </div>
+        </MediaQuery>
       </MediaQuery>
       <MediaQuery query='(min-device-width: 1300px)'>
         <div className="layout-logo">
