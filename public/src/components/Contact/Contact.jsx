@@ -83,6 +83,11 @@ const Contact = (props) => (
           <img className="layout-logo-image-fifteen-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default_Fifteen_Inch_Screen.jpeg" />
         </div>
       </MediaQuery>
+      <MediaQuery query='(min-device-width: 1900px)'>
+        <div className="layout-logo-twenty-seven-inch">
+          <img className="layout-logo-image-twenty-seven-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Twenty_Seven_Inch_Screen.jpg" />
+        </div>
+      </MediaQuery>
     <div className="contact-body">
       <Jumbotron>
         <h5 className="contact-header">Green Road Capital</h5>

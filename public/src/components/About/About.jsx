@@ -85,8 +85,8 @@ const About = (props) => (
         </div>
       </MediaQuery>
       <MediaQuery query='(min-device-width: 1900px)'>
-        <div className="layout-logo-fifteen-inch">
-          <img className="layout-logo-image-fifteen-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Twenty_Seven_Inch_Screen.jpg" />
+        <div className="layout-logo-twenty-seven-inch">
+          <img className="layout-logo-image-twenty-seven-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Twenty_Seven_Inch_Screen.jpg" />
         </div>
       </MediaQuery>
       <div className="shadow">
