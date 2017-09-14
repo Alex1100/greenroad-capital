@@ -84,6 +84,11 @@ const About = (props) => (
           <img className="layout-logo-image-fifteen-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default_Fifteen_Inch_Screen.jpeg" />
         </div>
       </MediaQuery>
+      <MediaQuery query='(min-device-width: 1900px)'>
+        <div className="layout-logo-fifteen-inch">
+          <img className="layout-logo-image-fifteen-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Twenty_Seven_Inch_Screen.jpg" />
+        </div>
+      </MediaQuery>
       <div className="shadow">
         <p>Green Road Capital, LLC was founded
           in 2017 and is based in Los Angeles, CA.
