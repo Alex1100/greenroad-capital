@@ -79,13 +79,15 @@ const HomeGuest = (props) => (
         </MediaQuery>
       </MediaQuery>
       <MediaQuery query='(min-device-width: 1300px)'>
-        <div className="layout-logo-fifteen-inch">
-          <img className="layout-logo-image-fifteen-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default_Fifteen_Inch_Screen.jpeg" />
-        </div>
+        <MediaQuery query='(max-device-width: 1700px)'>
+          <div className="layout-logo-fifteen-inch">
+            <img className="layout-logo-image-fifteen-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Default_Fifteen_Inch_Screen.jpeg" />
+          </div>
+        </MediaQuery>
       </MediaQuery>
-      <MediaQuery query='(min-device-width: 1900px)'>
+      <MediaQuery query='(min-device-width: 1700px)'>
         <div className="layout-logo-twenty-seven-inch">
-          <img className="layout-logo-image-twenty-seven-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Twenty_Seven_Inch_Screen.jpg" />
+          <img className="layout-logo-image-twenty-seven-inch" src="../../.././assets/images/Green_Road_Capital_Logo_New_Twenty_Seven_Inch.jpg" />
         </div>
       </MediaQuery>
       <div className="shadow">
