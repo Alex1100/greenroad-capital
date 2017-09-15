@@ -179,7 +179,9 @@ footer#footer-responsive-ac{
 
 ul.side-nav{
   background-color: black;
+  width: 40%;
 }
+
 
 ul.side-nav li a{
   color: #4dff00;

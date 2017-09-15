@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBarAbout from '../NavBar/NavBarAbout';
+import NavBar from '../NavBar/NavBar';
 import FooterComponentAC from '../Footer/FooterComponentAC';
 import { Jumbotron } from 'react-bootstrap';
 import MediaQuery from 'react-responsive';
@@ -7,7 +7,7 @@ import MediaQuery from 'react-responsive';
 
 const About = (props) => (
   <div>
-    <NavBarAbout props={props} />
+    <NavBar props={props} />
     <Jumbotron>
       <div className="shadow">
         <p>Green Road Capital, LLC was founded
