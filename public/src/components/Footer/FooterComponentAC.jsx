@@ -2,12 +2,13 @@ import React from 'react';
 import { Footer } from 'react-materialize';
 import { Link } from 'react-router-dom';
 
-const FooterComponentAbout = props => (
+const FooterComponentAC = props => (
   <div>
-    <Footer copyrights="©2017. Green Road Capital, LLC. All rights reserved."
+    <Footer id="footer-responsive-ac" copyrights="©2017. Green Road Capital, LLC. All rights reserved."
       links={
         <ul>
           <li><Link to="/" className="footer-content" onClick={() => props.history.push('/')}>Home</Link></li>
+          <li><Link to="/" className="footer-content" onClick={() => props.history.push('/about')}>About</Link></li>
           <li><Link to="/contact" className="footer-content" onClick={() => props.history.push('/contact')}>Contact</Link></li>
         </ul>
       }
@@ -23,4 +24,4 @@ const FooterComponentAbout = props => (
   </div>
 );
 
-export default FooterComponentAbout;
+export default FooterComponentAC;

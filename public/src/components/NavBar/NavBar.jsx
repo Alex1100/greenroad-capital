@@ -8,6 +8,17 @@ const NavBar = (props) => (
 
       <NavItem>
         <Link
+          to="/"
+          onClick={() => {
+            props.history.push('/');
+          }}
+        >
+          <span className="home-link">Home</span>
+        </Link>
+      </NavItem>
+
+      <NavItem>
+        <Link
           to="/about"
           onClick={() => {
             props.history.push('/about');

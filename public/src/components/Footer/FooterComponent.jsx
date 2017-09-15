@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 
 const FooterComponent = props => (
   <div>
-    <Footer copyrights="©2017. Green Road Capital, LLC. All rights reserved."
+    <Footer id="footer-responsive" copyrights="©2017. Green Road Capital, LLC. All rights reserved."
       links={
         <ul>
+          <li><Link to="/" className="footer-content" onClick={() => props.history.push('/')}>Home</Link></li>
           <li><Link to="/about" className="footer-content" onClick={() => props.history.push('/about')}>About</Link></li>
           <li><Link to="/contact" className="footer-content" onClick={() => props.history.push('/contact')}>Contact</Link></li>
         </ul>

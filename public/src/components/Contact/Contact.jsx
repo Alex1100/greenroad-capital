@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBarContact from '../NavBar/NavBarContact';
-import FooterComponentContact from '../Footer/FooterComponentContact';
+import FooterComponentAC from '../Footer/FooterComponentAC';
 import { Jumbotron } from 'react-bootstrap';
 import MediaQuery from 'react-responsive';
 
@@ -109,7 +109,7 @@ const Contact = (props) => (
         </p>
       </Jumbotron>
     </div>
-    <FooterComponentContact props={props}/>
+    <FooterComponentAC id="footer-responsive-ac" props={props}/>
   </div>
 );
 
