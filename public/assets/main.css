@@ -25,6 +25,7 @@ footer#footer-responsive{
   position: absolute;
   width: 100%;
   bottom: 0px;
+  height: 32.5%;
   background-color: black;
   !important
 }
@@ -33,6 +34,100 @@ footer#footer-responsive-ac{
   background-color: black;
   !important;
 }
+
+
+@media (max-device-width: 375px) and (min-device-width: 370px) and (min-device-height: 667px){
+  div.footer-copyright{
+    bottom: 40px;
+    display: block;
+    position: relative;
+    background-color: black;
+  }
+
+  div.container{
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    left: 00px;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+@media (max-device-width: 414px) and (min-device-width: 400px) and (min-device-height: 736px){
+  div.footer-copyright{
+    bottom: 40px;
+    display: block;
+    position: relative;
+    background-color: black;
+  }
+
+  div.container{
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    left: 00px;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+@media (max-device-width: 768px) and (min-device-width: 760px) and (max-device-height: 1024px){
+  div.footer-copyright{
+    bottom: 40px;
+    display: block;
+    position: relative;
+    background-color: black;
+  }
+
+  footer#footer-responsive{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -12%;
+    height: 25.5%;
+    background-color: black;
+  }
+
+  div.container{
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    left: 57px;
+    display: inline-block;
+    position: relative;
+    line-height: 1.35;
+  }
+}
+
+@media (max-device-width: 1024px) and (min-device-width: 1020px) and (max-device-height: 1366px){
+  footer#footer-responsive{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -16.5%;
+    height: 25.5%;
+    background-color: black;
+  }
+
+  div.footer-copyright{
+    bottom: 40px;
+    display: block;
+    position: relative;
+    background-color: black;
+  }
+
+  div.container{
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    left: 152px;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+
 
 .navbar-logged-out{
   background-color: black;
@@ -79,6 +174,7 @@ footer#footer-responsive-ac{
   margin: 0 auto;
   width: auto;
 }
+
 .layout-logo-image-iphone-six:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }

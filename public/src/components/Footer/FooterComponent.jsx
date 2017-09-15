@@ -8,7 +8,9 @@ const FooterComponent = props => (
       links={
         <ul>
           <li><Link to="/" className="footer-content" onClick={() => props.history.push('/')}>Home</Link></li>
+          <span></span>
           <li><Link to="/about" className="footer-content" onClick={() => props.history.push('/about')}>About</Link></li>
+          <span></span>
           <li><Link to="/contact" className="footer-content" onClick={() => props.history.push('/contact')}>Contact</Link></li>
         </ul>
       }
